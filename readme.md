@@ -8,12 +8,11 @@ minikube start
 minikube status
 
 # Appliquer les YMLs 
-kubectl apply -f namespace.yaml
-kubectl apply -f php-deployment.yaml  
-kubectl apply -f mysql-deployment.yaml
-
-# Définir le namespace de travail
-kubens test 
+kubectl apply -f namespace.yml
+kubens esgis-devops
+kubectl apply -f phpdeploy.yml  
+kubectl apply -f mydeploy.yml
+kubectl apply -f mysql-secret.yml   
 
 # Lister les pods
 kubectl get pods
