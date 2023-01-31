@@ -1,0 +1,6 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: esgis-devops
+  labels:
+    name: esgis-devops

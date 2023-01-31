@@ -1,0 +1,8 @@
+.dockerignore
+compose**.*
+*.php
+*.pdf
+*.sql
+mysql-pv.yml
+Dockerfile
+assets/
